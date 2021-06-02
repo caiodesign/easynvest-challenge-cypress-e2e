@@ -23,7 +23,7 @@ describe('The list Page', () => {
         });
     })
 
-    it.only('should remove a user case REMOVE button was clicked', () => {
+    it('should remove a user case REMOVE button was clicked', () => {
         cy.wait(1000);
         cy.get('.__user:first img').click();
 
