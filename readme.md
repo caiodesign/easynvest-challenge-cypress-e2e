@@ -36,6 +36,9 @@ npm install
 ```
 
 ## Running
+
+### LOCAL ENVIRONMENT
+You also needs the [front-end server](https://github.com/caiodesign/easynvest-front-end-challenge) running on the same time with you want to work with this project on local ENVIRONMENT!
 ```
 yarn start
 ```
@@ -44,11 +47,31 @@ or
 npm start
 ```
 
+
+### PRODUCTION ENVIRONMENT (on Linux)
+For testing the production environment:
+```
+yarn production
+```
+or
+```
+npm run production
+```
+
+
+### PRODUCTION ENVIRONMENT (on windows)
+For testing the production environment case you are using POWERSHELL or CMD on Windows OS:
+```
+yarn windows-production
+```
+or
+```
+npm run windows-production
+```
+
+
 ## Tests
 You can find all the tests into `cypress/integration` folder. 
-
-### Important
-You also needs the front-end server running the same time with this project! (https://github.com/caiodesign/easynvest-front-end-challenge)
 
 
 ## Cypress

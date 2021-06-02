@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx cypress open",
+    "production": "CYPRESS_BASE_URL=https://60b7cb9864906a11b880e625--nervous-clarke-0f4510.netlify.app npx cypress open",
+    "windows-production": "SET CYPRESS_BASE_URL=https://60b7cb9864906a11b880e625--nervous-clarke-0f4510.netlify.app && npx cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
